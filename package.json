@@ -7,13 +7,13 @@
     "markdown",
     "converter"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/azu/opml-to-markdown/",
   "repository": {
     "url": "git://github.com/azu/opml-to-markdown.git"
   },
   "bin": {
-      "opml-to-markdown" :"bin/opml-to-markdown.js"
+    "opml-to-markdown": "bin/opml-to-markdown.js"
   },
   "main": "lib/opml-to-markdown.js",
   "scripts": {
