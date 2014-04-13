@@ -1,30 +1,31 @@
 {
-  "name": "opml-to-markdown",
-  "description": "Convert OmniOutliner's opml to markdown.",
-  "version": "0.0.1",
-  "homepage": "https://github.com/azu/opml-to-markdown/",
-  "repository": {
-    "url": "git://github.com/azu/opml-to-markdown.git"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha test/*.js"
-  },
-  "directories": {
-    "test": "test/"
-  },
-  "author": "azu",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/azu/opml-to-markdown/issues"
-  },
-  "dependencies": {
-    "opml-to-json": "0.0.2",
-    "optionator": "^0.3.0"
-  },
-  "devDependencies": {
-    "intelli-espower-loader": "0.0.7",
-    "mocha": "^1.18.2",
-    "power-assert": "^0.6.1"
-  }
+    "name": "opml-to-markdown",
+    "description": "Convert OmniOutliner's opml to markdown.",
+    "version": "0.0.1",
+    "homepage": "https://github.com/azu/opml-to-markdown/",
+    "repository": {
+        "url": "git://github.com/azu/opml-to-markdown.git"
+    },
+    "bin": "bin/opml-to-markdown.js",
+    "main": "lib/opml-to-markdown.js",
+    "scripts": {
+        "test": "mocha test/*.js"
+    },
+    "directories": {
+        "test": "test/"
+    },
+    "author": "azu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/azu/opml-to-markdown/issues"
+    },
+    "dependencies": {
+        "opml-to-json": "0.0.2",
+        "optionator": "^0.3.0"
+    },
+    "devDependencies": {
+        "intelli-espower-loader": "0.0.7",
+        "mocha": "^1.18.2",
+        "power-assert": "^0.6.1"
+    }
 }
