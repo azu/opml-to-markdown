@@ -6,7 +6,7 @@ describe("opml-to-json", function () {
     it("should return markdown", function (done) {
         var xml = fs.readFileSync(__dirname + "/fixtures/header-list-note/test.opml", "utf-8");
         var expected = fs.readFileSync(__dirname + "/fixtures/header-list-note/result.md", "utf-8");
-        opmlToMD(xml, function (error, markdown) {
+        opmlToMD(xml, {}, function (error, markdown) {
             assert.equal(markdown, expected);
             done();
         });
@@ -15,7 +15,7 @@ describe("opml-to-json", function () {
         it("should return markdown", function (done) {
             var xml = fs.readFileSync(__dirname + "/fixtures/header-note/test.opml", "utf-8");
             var expected = fs.readFileSync(__dirname + "/fixtures/header-note/result.md", "utf-8");
-            opmlToMD(xml, function (error, markdown) {
+            opmlToMD(xml, {}, function (error, markdown) {
                 assert.equal(markdown, expected);
                 done();
             });
