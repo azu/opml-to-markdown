@@ -1,6 +1,7 @@
 {
     "name": "opml-to-markdown",
     "description": "Convert OmniOutliner's opml to markdown.",
+    "keywords": ["opml", "omnioutliner", "markdown", "converter"],
     "version": "0.0.1",
     "homepage": "https://github.com/azu/opml-to-markdown/",
     "repository": {
@@ -20,7 +21,7 @@
         "url": "https://github.com/azu/opml-to-markdown/issues"
     },
     "dependencies": {
-        "opml-to-json": "0.0.2",
+        "opml-to-json": "~0.0.2",
         "optionator": "^0.3.0"
     },
     "devDependencies": {
