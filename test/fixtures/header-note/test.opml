@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head>
+    <title>title</title>
+  </head>
+  <body>
+    <outline text="H1" _note="note\nnote" />
+    <outline text="ch2" _note="note\nnote"/>
+  </body>
+</opml>
