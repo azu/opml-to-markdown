@@ -21,7 +21,7 @@ Usage: cmd [options]
   -h, --help            displays help
   -e, --entry String    opml file path
   -o, --outfile String  output to file path
-  --require String      builder module(like build-markdown.js) path
+  --require String      builder module(like build-slide-markdown.js) path
 ```
 
 ``` sh
@@ -73,7 +73,7 @@ note
 You have to implement building module.
 
 ``` sh
-$ opml-to-markdown -e test/fixtures/header-list-note/test.opml --require lib/build-markdown.js
+$ opml-to-markdown -e test/fixtures/header-list-note/test.opml --require lib/build-slide-markdown.js
 ```
 
 ## Contributing
