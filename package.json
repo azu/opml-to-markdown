@@ -7,7 +7,7 @@
     "markdown",
     "converter"
   ],
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/azu/opml-to-markdown/",
   "repository": {
     "url": "git://github.com/azu/opml-to-markdown.git"
